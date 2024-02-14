@@ -205,11 +205,6 @@ i {
 /* portfolio section ends */
 
 /* Services section starts */
-.services-grid {
-  * {
-    /* border: 1px solid; */
-  }
-}
 #services .page-name::before {
   content: "services";
 }
