@@ -137,7 +137,7 @@ i {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  margin-block: 2rem;
+  margin-top: 2rem;
 }
 /* Main Container Ends */
 
@@ -251,6 +251,26 @@ i {
   content: "contact";
 }
 /* contact section ends */
+
+/* Map section starts */
+#map {
+  padding: .5rem;
+}
+iframe {
+  width: 100%;
+}
+/* Map section ends */
+
+/* Footer section starts */
+  #footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    background-color: var(--dark);
+    color: var(--text-clr);
+    text-transform: uppercase;
+  }
+/* Footer section ends */
 
 /* Main Pages section End  */
 
