@@ -137,7 +137,7 @@ i {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  margin-block: 2rem .5rem;
+  margin-block: 2rem 0.5rem;
 }
 /* Main Container Ends */
 
@@ -250,26 +250,21 @@ i {
 #contact .page-name::before {
   content: "contact";
 }
+#contact iframe {
+  width: 100%;
+  margin-top: 2rem;
+}
 /* contact section ends */
 
-/* Map section starts */
-#map {
-  padding: .5rem;
-}
-iframe {
-  width: 100%;
-}
-/* Map section ends */
-
 /* Footer section starts */
-  #footer {
-    padding: 1rem;
-    text-align: center;
-    font-size: 14px;
-    background-color: var(--dark);
-    color: var(--text-clr);
-    text-transform: uppercase;
-  }
+#footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 14px;
+  background-color: var(--dark);
+  color: var(--text-clr);
+  text-transform: uppercase;
+}
 /* Footer section ends */
 
 /* Main Pages section End  */
